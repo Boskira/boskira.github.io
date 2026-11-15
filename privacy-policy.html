@@ -20,34 +20,40 @@
 <body>
 <main>
 <h1>BosKira privacy policy</h1>
-<p class="updated">Last updated 10 November 2026</p>
+<p class="updated">Last updated 15 November 2026</p>
 
-<p class="summary">BosKira keeps your financial information on your phone. It has no internet access, has no accounts, and doesn't send your data to us or anyone else.</p>
+<p class="summary">BosKira keeps your financial information on your phone. It has no internet access and no accounts, and it doesn't send your data to us or anyone else.</p>
 
 <h2>What BosKira reads</h2>
-<p>With your permission (Android's "notification access"), BosKira reads notifications from the <strong>OCBC</strong> app, <strong>Google Wallet</strong> and <strong>Touch 'n Go eWallet</strong> so it can record your payments automatically. From those notifications it uses the amount, the shop or person paid, and the time.</p>
-<p>OCBC sends some alerts as text messages. BosKira sees those through your messaging app's notification and keeps only messages from OCBC that mention an amount. One-time passwords and all other messages are dropped before anything is saved. BosKira never opens your SMS inbox.</p>
-<p>If you use another bank, you can choose to switch on its app in BosKira's Capture mode. BosKira then also saves that app's notifications, so you can export them and help BosKira learn to read them. Apps you don't switch on are ignored.</p>
-<p>Some banks send the amount only by email. If you turn on <strong>Bank emails</strong>, BosKira looks at the new-mail notifications from Gmail or Samsung Email: the sender's name and the preview lines shown in the notification. It keeps only emails whose sender is a bank or e-wallet and whose preview mentions an amount, and drops any with a code or password. Every other email is ignored and nothing about it is saved. BosKira never opens your mailbox. Bank emails are off until you turn them on.</p>
-<p>If you split a bill by its receipt, BosKira reads the photo you choose on this phone to find the items and prices. The photo isn't copied or kept.</p>
-<p>Android delivers every notification to apps with notification access. BosKira ignores notifications from all other apps, every message in your messaging app that isn't from OCBC, and every email that isn't a bank's money alert: it doesn't read their content or save anything about them.</p>
+<p><strong>Payment notifications.</strong> With your permission (Android's "notification access"), BosKira reads notifications from banking, card and e-wallet apps so it can record your payments automatically. A few common ones are switched on from the start, and you can switch any app on or off in Capture mode, which lists them. From a payment notification BosKira uses the amount, the currency, the shop or person paid, and the time.</p>
+<p><strong>Bank text messages.</strong> Some banks send payment alerts by text. BosKira sees these only as your messaging app's notification, and keeps only messages from a bank it supports that mention an amount. One-time passwords and every other message are dropped before anything is saved. BosKira never opens your SMS inbox.</p>
+<p><strong>Bank emails, if you turn them on.</strong> Some banks send the amount only by email. If you turn on Bank emails, BosKira looks at new-mail notifications from your email app: the sender's name and the preview lines shown in the notification. It keeps only emails from a bank or e-wallet whose preview mentions an amount, and drops any with a code or password. BosKira never opens your mailbox. Bank emails are off until you turn them on.</p>
+<p><strong>Files you choose.</strong> If you split a bill by its receipt, BosKira reads the photo you pick to find the items and prices. If you use Statement check, it reads the bank statement PDF you pick to compare it with what it recorded. Both are read on this phone, and the photo or file isn't copied or kept. Payments you choose to add from a statement are saved like any others.</p>
+<p><strong>Everything else is ignored.</strong> Android delivers every notification to apps with notification access. BosKira doesn't read or save anything from apps you haven't switched on, from messages that aren't bank alerts, or from emails that aren't a bank's money alert.</p>
 <p>You can turn notification access off at any time in your phone's settings. BosKira then stops recording payments, and anything you add by hand still works.</p>
 
 <h2>What BosKira stores</h2>
 <ul>
-  <li>Transactions recorded from those notifications or added by you, with the categories, splits and paybacks you set.</li>
-  <li>The text of the payment notifications themselves, so they can be read again if a later app update understands them better.</li>
-  <li>Your preferences, such as "always put this shop in Food &amp; Drink".</li>
+  <li>Your transactions, whether recorded from notifications, added from a statement or added by you, with the categories, splits, notes and paybacks you set.</li>
+  <li>The text of the payment notifications, so they can be read again if a later version of the app understands them better. Once a payment is 90 days old, its notifications are deleted and the transaction stays. Notifications BosKira can't read yet are kept until a later version can.</li>
+  <li>Your settings and preferences, such as which apps are switched on and "always put this shop in Food &amp; Drink".</li>
 </ul>
-<p>All of this is stored only on your phone, in encrypted databases. The encryption key is held by your phone's secure hardware (Android Keystore), and the app asks for your fingerprint or screen lock when it starts. BosKira's data is excluded from Android backups, so it isn't copied to Google Drive or another phone.</p>
-<p>You can make a backup yourself. It's a file locked with a password you choose, saved wherever you pick. If you save it to a cloud service such as Google Drive, that copy is kept by that service. Without the password nobody can open it, and it can't be recovered if you forget the password.</p>
+<p>All of this is stored only on your phone, in encrypted databases. The encryption key is held by your phone's secure hardware (Android Keystore). If your phone has a screen lock, the app asks for your fingerprint or that lock when it opens; on a phone with no screen lock, it opens without asking. BosKira's data is excluded from Android backups, so it isn't copied to Google Drive or another phone.</p>
+<p>You can make a backup yourself. It's a file locked with a password you choose, saved wherever you pick. If you save it to a cloud service, that copy is kept by that service. Without the password nobody can open it, and it can't be recovered if you forget the password.</p>
 
 <h2>What BosKira sends, and to whom</h2>
-<p>Nothing. BosKira doesn't request Android's internet permission, so it cannot connect to the internet. There are no ads, no analytics, no crash reporting services and no third-party tracking. We never see your data and can't sell or share it.</p>
-<p>The only way information leaves the app is if you choose to share it yourself, for example by using a share or copy button. It then goes only to the app or person you pick.</p>
+<p>Nothing. BosKira doesn't request Android's internet permission, so it cannot connect to the internet. There are no ads, no analytics, no crash reporting and no third-party tracking. The libraries built into it, including Google's on-phone text reader for receipts, run under the same rule and can't connect either. We can't see your data, so we can't sell or share it.</p>
+<p>Information leaves the app only when you choose to share it, for example with a share or copy button. It then goes only to the app or person you pick.</p>
+
+<h2>If you send us an export</h2>
+<p>Capture mode can export the payment notifications BosKira saved and the payments on your calendar as text, to help us fix notifications it reads wrongly. BosKira replaces names, email addresses and card or account numbers with placeholders first. This is automatic and can miss some, so the export is shown to you to read and edit before you copy it.</p>
+<p>The export goes nowhere unless you send it. If you send it to us, we use it only to find and fix how BosKira reads notifications. We keep it private, don't share it with anyone, and delete it once the fix is made, and in any case within 90 days. What we keep afterwards are test examples with the remaining personal details changed by hand. To have an export deleted sooner, write to the address below.</p>
 
 <h2>Keeping and deleting your data</h2>
-<p>Your data stays on your phone until you delete it. You can delete individual transactions and captured notifications in the app. Uninstalling BosKira permanently deletes everything it stored.</p>
+<p>Your data stays on your phone until you delete it. You can delete individual transactions and saved notifications in the app. Uninstalling BosKira permanently deletes everything it stored.</p>
+
+<h2>Accuracy and other terms</h2>
+<p>BosKira reads amounts automatically and can get them wrong; your bank's records are the correct ones. It isn't affiliated with any bank or payment service and isn't financial advice. The full terms, and the licences of the open-source software it uses, are under About and licences in the app's menu.</p>
 
 <h2>Children</h2>
 <p>BosKira isn't intended for children under 13 and doesn't knowingly collect information from them.</p>
